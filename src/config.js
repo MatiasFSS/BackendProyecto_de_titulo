@@ -5,10 +5,10 @@ module.exports = {
         port: process.env.PORT || 3306
     }, 
     mysql: {
-        host: process.env.MYSQL_HOST || 'localhost',
-        user: process.env.MYSQL_USER || 'root',
-        password: process.env.MYSQL_PASSWORD || '',
-        database: process.env.MYSQL_DB || 'proyecto_titulo',
+        host: process.env.MYSQL_HOST || 'sql.freedb.tech',
+        user: process.env.MYSQL_USER || 'freedb_matias',
+        password: process.env.MYSQL_PASSWORD || "J%J%fVKs37XqZpf87",
+        database: process.env.MYSQL_DB || "freedb_proyecto_titulo",
     
     }
 }
