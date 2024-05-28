@@ -109,6 +109,11 @@ function trivias(tabla, dificultad){
 
 
 
+
+
+
+
+
 module.exports ={
   MostrarTodo,
   MostrarItem,
@@ -117,6 +122,7 @@ module.exports ={
   ActualizarItem,
   MaterialItem,
   Tutorial,
-  trivias
+  trivias,
+
   
 }

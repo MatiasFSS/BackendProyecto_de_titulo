@@ -5,6 +5,8 @@ const config = require('./config');
 const enciclopedia = require('./modulos/Enciclopedia/rutas')
 const tutoriales = require('./modulos/Tutoriales/rutas')
 const trivias = require("./modulos/Trivias/rutas")
+const pregunta = require("./modulos/Pregunta/rutas")
+
 const error = require('./red/errors')
 
 const app = express();
@@ -20,6 +22,8 @@ app.set('port', config.app.port);
 app.use('/enciclopedia', enciclopedia)
 app.use('/tutoriales', tutoriales)
 app.use('/trivias',trivias)
+app.use('/pregunta',pregunta)
+
 app.use(error)
 
 module.exports = app;
